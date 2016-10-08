@@ -1,0 +1,34 @@
+.AdminRouteHandler {
+  height: 100%;
+}
+
+.AdminRouteHandler-header {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  border-bottom: 1px solid #e7ebf3;
+}
+
+.AdminRouteHandler-header a,
+.AdminRouteHandler-header a:visited {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: center;
+  color: #905a90;
+}
+
+.AdminRouteHandler-header a:hover {
+  background: #e7ebf3;
+}
+
+.AdminRouteHandler-header a.active {
+  background: #e7ebf3;
+  border-bottom: 3px solid #a589a5;
+}
+
+.AdminRouteHandler-mainContent {
+  height: 100%;
+  padding: 10px;
+}

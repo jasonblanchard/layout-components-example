@@ -1,0 +1,34 @@
+.AdminLayout {
+  height: 100%;
+}
+
+.AdminLayout-header {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  border-bottom: 1px solid #e7ebf3;
+}
+
+.AdminLayout-header a,
+.AdminLayout-header a:visited {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: center;
+  color: #905a90;
+}
+
+.AdminLayout-header a:hover {
+  background: #e7ebf3;
+}
+
+.AdminLayout-header a.active {
+  background: #e7ebf3;
+  border-bottom: 3px solid #a589a5;
+}
+
+.AdminLayout-mainContent {
+  height: 100%;
+  padding: 10px;
+}
