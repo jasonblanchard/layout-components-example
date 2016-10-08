@@ -6,7 +6,9 @@ class AccountsPage extends Component {
   render() {
     return (
       <AdminLayout>
-        Manage Accounts
+        <div role="main">
+          Manage Accounts
+        </div>
       </AdminLayout>
     );
   }

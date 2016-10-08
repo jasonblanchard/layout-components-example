@@ -6,7 +6,9 @@ class UsersPage extends Component {
   render() {
     return (
       <AdminLayout>
-        Manage Users
+        <div role="main">
+          Manage Users
+        </div>
       </AdminLayout>
     );
   }

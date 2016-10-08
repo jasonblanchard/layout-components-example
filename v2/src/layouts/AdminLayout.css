@@ -11,12 +11,10 @@
 
 .AdminLayout-header a,
 .AdminLayout-header a:visited {
-  text-decoration: none;
   display: flex;
   align-items: center;
   width: 100px;
   justify-content: center;
-  color: #905a90;
 }
 
 .AdminLayout-header a:hover {
@@ -30,5 +28,4 @@
 
 .AdminLayout-mainContent {
   height: 100%;
-  padding: 10px;
 }

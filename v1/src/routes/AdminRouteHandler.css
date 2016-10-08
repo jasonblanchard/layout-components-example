@@ -11,12 +11,10 @@
 
 .AdminRouteHandler-header a,
 .AdminRouteHandler-header a:visited {
-  text-decoration: none;
   display: flex;
   align-items: center;
   width: 100px;
   justify-content: center;
-  color: #905a90;
 }
 
 .AdminRouteHandler-header a:hover {
@@ -30,5 +28,4 @@
 
 .AdminRouteHandler-mainContent {
   height: 100%;
-  padding: 10px;
 }

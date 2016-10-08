@@ -8,3 +8,18 @@ body {
 body, html, #root {
   height: 100%;
 }
+
+[role="main"] {
+  padding: 10px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #905a90;
+}

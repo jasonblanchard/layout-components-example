@@ -6,7 +6,9 @@ class ProfilePage extends Component {
   render() {
     return (
       <AdminLayout>
-        Profile
+        <div role="main">
+          Profile
+        </div>
       </AdminLayout>
     );
   }
