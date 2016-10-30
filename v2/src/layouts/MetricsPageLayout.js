@@ -9,7 +9,7 @@ class MetricsPageLayout extends Component {
     const className = classNames('MetricsPageLayout', this.props.className);
     return (
       <SideNavAdminLayout className={className}>
-        <div>Metrics</div>
+        <h2>Metrics</h2>
         <nav>
           <ul>
             <li><Link activeClassName="active" to="/admin/metrics-users">Users</Link></li>
