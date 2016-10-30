@@ -22,12 +22,16 @@
 .SideNavAdminLayout-sideNav li a {
   display: flex;
   align-items: center;
-  justify-content: center;
   height: 30px;
   border-bottom: 1px solid #e7ebf3;
   background: white;
+  padding: 0 10px;
 }
 
 .SideNavAdminLayout-sideNav li a:hover {
+  background: #e7ebf3;
+}
+
+.SideNavAdminLayout-sideNav a.active {
   background: #e7ebf3;
 }

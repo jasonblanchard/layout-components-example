@@ -1,21 +1,28 @@
+import classNames from 'classnames';
 import React, { Component, Children } from 'react';
 
 import AdminLayout from 'src/layouts/AdminLayout';
 import './SideNavAdminLayout.css';
 
 class SideNavAdminLayout extends Component {
+  static propTypes: {
+    className: PropTypes.string
+  }
+
   render() {
+    const className = classNames('SideNavAdminLayout', this.props.className);
+    const children = Children.toArray(this.props.children);
     return (
-      <AdminLayout className="SideNavAdminLayout">
+      <AdminLayout className={className}>
         <div className="SideNavAdminLayout-subHeader">
-          {this.props.children[0]}
+          {children[0]}
         </div>
         <div className="SideNavAdminLayout-body">
           <div className="SideNavAdminLayout-sideNav">
-            {this.props.children[1]}
+            {children[1]}
           </div>
           <div className="SideNavAdminLayout-mainContent">
-            {this.props.children[2]}
+            {children[2]}
           </div>
         </div>
       </AdminLayout>
