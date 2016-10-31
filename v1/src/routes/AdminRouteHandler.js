@@ -12,7 +12,7 @@ class AdminRouteHandler extends Component {
           <Link to='/admin/users' activeClassName="active">Users</Link>
           <Link to='/profile' activeClassName="active">View Profile</Link>
         </header>
-        <div className="AdminRouteHandler-mainContent" role="main">
+        <div className="AdminRouteHandler-mainContent">
           {this.props.children}
         </div>
       </div>
